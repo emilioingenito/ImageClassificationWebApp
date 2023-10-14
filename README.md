@@ -15,12 +15,12 @@ Key security and privacy considerations include:
 * Protecting against cross-site request forgery (CSRF) to prevent unauthorized posts or actions with other users' identities.
 * Implementing content filtering mechanisms to prevent users from uploading or posting inappropriate content, potentially utilizing third-party APIs like SafeSearch.
 
-## Architecture Building Blocks
+## Architecture Building Blocks
 The architecture is built upon the following fundamental components:
 
 * Database: Used for storing bucket information, images, and user data, ensuring data persistence and retrieval.
 * Front-End Application: This component is responsible for local bucket storage and user interaction with the application.
 * Back-End Application: Handles critical functionalities such as user authentication, image uploading, and bucket selection.
 
-## TechStack
+## TechStack
 For an in-depth view of our tech stack, please refer to our [TechStack Diagram](/documentation/diagram_mvp.jpg).
