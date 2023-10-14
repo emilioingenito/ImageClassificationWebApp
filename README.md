@@ -23,5 +23,5 @@ The architecture is built upon the following fundamental components:
 * Back-End Application: Handles critical functionalities such as user authentication, image uploading, and bucket selection.
 
 ## TechStack
-For an in-depth view of our tech stack, please refer to our [TechStack Diagram](/documentation/diagram_mvp.jpg).
+<!-- For an in-depth view of our tech stack, please refer to our [TechStack Diagram](/documentation/diagram_mvp.jpg).  -->
 ![TechStack Diagram](/documentation/diagram_mvp.jpg)
