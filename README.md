@@ -24,3 +24,4 @@ The architecture is built upon the following fundamental components:
 
 ## TechStack
 For an in-depth view of our tech stack, please refer to our [TechStack Diagram](/documentation/diagram_mvp.jpg).
+![TechStack Diagram](/documentation/diagram_mvp.jpg)
