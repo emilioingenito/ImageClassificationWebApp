@@ -1,0 +1,85 @@
+.form-contain {
+    margin: auto;
+    width: 50%;
+}
+
+.error {
+    color:crimson;
+}
+
+.message{
+    color:seagreen;
+}
+
+.loading{
+    width: 1%;
+    margin-left: 1%;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap
+}
+
+.wrapper {
+    padding:20px;
+}
+.drop_zone {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    background: white;
+    background-image: url("/icons/upload.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center;
+    background-color: #ffffff;
+    cursor: pointer;
+    border: 2px dashed #ccc;
+    border-radius: 6px;
+    margin-bottom: 25px;
+    background-position: center 28px;
+}
+.drop_zone>p {
+    margin: auto;
+}
+.image{
+   width: 200px;
+   height: 200px;
+   border-radius: 4px;
+   display: flex;
+   align-items: center;
+   object-fit: contain;
+}
+
+.SwipeButtons{
+    position: fixed;
+    bottom: 10vh;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.SwipeButtons .MuiIconButton-root{
+    background-color: white;
+    box-shadow: 0px 10px 53px 0px rgba(0, 0, 0, 0.3) !important;
+}
+
+.SwipeButtons__left{
+    position: relative;
+    left: 60%;
+    background-color: white;
+    box-shadow: 0px 10px 53px 0px rgba(0, 0, 0, 0.3) !important;
+    padding: 3vw !important;
+    color: #ec5e6f !important;
+
+}
+.SwipeButtons__right{
+    position: relative;
+    left: 20%;
+    background-color: white;
+    box-shadow: 0px 10px 53px 0px rgba(0, 0, 0, 0.3) !important;
+    padding: 3vw !important;
+    color: #76e2b3 !important;
+
+}
